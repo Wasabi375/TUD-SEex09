@@ -1,1 +1,2 @@
-install: ./gradlew build # "language: java" also works but then travis runs ./gradlew assemble and ./graldew check independently
+language: java
+install: ./gradlew build
